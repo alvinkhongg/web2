@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anime</title>
+ 
+<style>
+* {padding: 0; margin: 0;}
+
+body {
+  width: 100%;
+  margin: auto;
+
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: 7px groove #3F2828;
+  color: black; 
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.button:hover {
+  background-color: navy;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+</style>
+</head>
+<body>
+  <style>
+    body {
+      background-color : teal;
+    }
+  </style>
+  <h1>List Anime</h1>
+<div>
+<a href="../attack on titan/AoT.html"> <button class="button" style="vertical-align:middle"><span>Attack On Titan</span></button></a>
+<br>
+<a href="../one punch man/OPM.html"> <button class="button" style="vertical-align:middle"><span>One Punch Man</span></button></a>
+<br>
+<a href="../tokyo ghoul/TG.html"> <button class="button" style="vertical-align:middle"><span>Tokyo Ghoul</span></button></a>
+</div>
+
+</body>
+</html>

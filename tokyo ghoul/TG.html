@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tokyo Ghoul</title>
+      <link rel="stylesheet" type="text/css" href="../css/star-rating.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<style>
+	 #j1{ text-align : center; color : midnightblue; }
+	</style>
+</head>
+<body> 
+<div class="content">
+<img src="main.jpg" alt="gambar" class="tg">
+
+<h1 id="j1">TOKYO GHOUL</h1>
+<p> Tokyo Ghoul is set in an alternate reality where ghouls, carnivorous monsters who look exactly like normal people but can only survive by eating human flesh, live among the human population in secret, hiding their true nature in order to evade pursuit from the authorities. Including enhanced speed, senses, and regenerative ability, a regular ghoul is several times stronger than a normal human, has a skin resistant to ordinary piercing weapons and has at least one special predatory organ called a "Kagune", which it can manifest and use as a weapon during combat. Another distinctive trait of ghouls is that when they are excited or hungry, the color of their sclera in both eyes turns black and their irises red. This mutation is known as a "kakugan (red eye)." In the case of a half-ghoul, only one of the eyes undergoes the transformation. A half-ghoul can either be born naturally as a ghoul and a human's offspring, or artificially created by transplanting some ghoul organs into a human. In both cases, a half-ghoul is usually much stronger than a pure-blood ghoul. There is also the case of half-humans, hybrids of ghouls and humans that can feed like normal humans and lack a Kagune while possessing enhanced abilities,like increased speed and reaction speed, but shortened lifespans. To hunt down the ghouls, several government-sponsored organizations around the world were created.
+</p>
+<p> The story follows Ken Kaneki, a college student who barely survives a deadly encounter with Rize Kamishiro, his date who reveals herself as a ghoul. He is taken to the hospital in critical condition. After recovering, Kaneki discovers that he underwent a surgery that transformed him into a half-ghoul. This was accomplished because some of Rize's organs were transferred into his body, and now, like normal ghouls, he must consume human flesh to survive. The ghouls who manage the coffee shop "Anteiku" take him in and teach him to deal with his new life as a half-ghoul. Some of his daily struggles include fitting into the ghoul society, as well as keeping his identity hidden from his human companions.</p>
+<p>
+The prequel series Tokyo Ghoul [Jack] follows the youths of Kishō Arima and Taishi Fura, two characters from the main series who become acquainted when they join forces to investigate the death of Taishi's friend by the hands of a ghoul, leading to Taishi eventually following Arima's path and joining the CCG (Commission of Counter Ghoul), the federal agency tasked into dealing with crimes related to ghouls as well.
+</p><p>
+The sequel series Tokyo Ghoul:re follows an amnesiac Kaneki under the new identity of Haise Sasaki (the result of horrific brain damage sustained from Kishō Arima). He is the mentor of a special team of CCG investigators called "Quinx Squad" that underwent a similar procedure as his, allowing them to obtain the special abilities of Ghouls in order to fight them, but still being able to live as normal humans.
+</p>
+<p align="left"> Here's the character in Tokyo Ghoul :
+     </p>
+     <p>
+<a href = "charactertg.html"><button class="button" style="vertical-align: middle"><span> Character </span></button></a></p>
+
+<p align="left"> Here's trailer video from Tokyo Ghoul season 1, 2, & 3 : 
+</p>
+<p><a href = "https://www.youtube.com/watch?v=ETHpMMV8rJU"><button class="button" style="vertical-align: middle"><span> Season 1 </span></button></a></p>
+<p><a href = "https://www.youtube.com/watch?v=54P5orat8oo"><button class="button" style="vertical-align: middle"><span> Season 2 </span></button></a></p>
+<p><a href = "https://www.youtube.com/watch?v=nytIRpgO3Z4"><button class="button" style="vertical-align: middle"><span> Season 3 </span></button></a></p>
+<br>
+<p><a href ="../tugas/tugas.html"><button class="button" style="vertical-align:middle"><span><<</span></button></a></p>
+<div class="text-center">
+    <p>
+        <h6>Rate This Anime</h6>
+        <input id="rating-input" type="text" title=""/>
+    </p>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/star-rating.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+ $(document).ready(function(){
+  var $inp = $('#rating-input');
+  
+  
+   
+  $inp.rating({
+                min: 0,
+                max: 5,
+                step: 1,
+                size: 'sm',
+                showClear: false
+            });
+  $inp.on('rating.change', function () {
+   alert('Nilai rating : '+$('#rating-input').val());
+  });
+ });
+</script>
+
+<style>
+	body {
+     margin: 0;
+     padding: 0;
+}
+.tg {
+    position: fixed;
+     z-index: -1;
+     float: left;
+     margin-right: auto;
+     margin-left:auto;
+     text-align: left;
+     width: 17%;
+
+
+}
+.content {
+     width: 100%;
+     height: auto;
+     margin: auto;
+     position: relative;
+     z-index: 5;
+     background: lightslategrey;
+     padding: 70px;
+ 	
+}
+.content p{
+	color: black;
+	margin: auto;
+	width: 50%;
+}
+</style>
+</body>
+</html>
